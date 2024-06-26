@@ -1,5 +1,5 @@
 /*
-   WAP to reverse the given number 
+   WAP to reverse the given number
 */
 package practice;
 

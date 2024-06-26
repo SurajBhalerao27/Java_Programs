@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.*;
+import java.util.Scanner;
 
 class Student {
     String name;
@@ -17,13 +17,13 @@ class Student {
             name = sc.nextLine();
             roll = sc.nextInt();
             marks = sc.nextInt();
-           
+
         }
     }
 
     void show() {
         System.out.println("Name = " + name + " Roll_no = " + roll + " Marks = " + marks);
-      
+
     }
 }
 

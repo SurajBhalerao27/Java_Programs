@@ -7,10 +7,11 @@ public class MaximumOfTwo {
 		b=b1;
 	}
 	int max() {
-		if (a>b)
-		  return a;
-		else
+		if (a>b) {
+			return a;
+		} else {
 			return b;
+		}
 	}
 
 	public static void main(String[] args) {

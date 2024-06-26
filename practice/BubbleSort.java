@@ -7,7 +7,6 @@ public class BubbleSort {
 		int[] newArray = { 55, -95, 4, 64, -1, 255, 100 };
 		bubbleSort(newArray);
 	}
-
 	public static void bubbleSort(int[] arr) {
 		for (int i = 0; i <= arr.length; i++) {
 			for (int j = 0; j < arr.length - i - 1; j++) {

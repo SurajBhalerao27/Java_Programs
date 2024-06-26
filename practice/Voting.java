@@ -1,5 +1,5 @@
 /*
-    WAP to check whether a person is eligible for voting 
+    WAP to check whether a person is eligible for voting
 */
 package practice;
 

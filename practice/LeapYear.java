@@ -1,5 +1,5 @@
-/*  
-    2. WAP to check whether a given year is a  LEAP year  
+/*
+    2. WAP to check whether a given year is a  LEAP year
 */
 
 package practice;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class LeapYear {
 
 	public static void main(String[] args) {
-		
+
 		int year;
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println("Enter year:");

@@ -1,7 +1,6 @@
 package practice;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 interface CalculateCube {
 	int cube(int b);
@@ -36,8 +35,8 @@ class Rectangle implements CalculateCube, CalculateSqareRoot {
 
 		return sqareRoot;
 	}
-				//return Math.sqrt(num); 
-	  // this is way more simple method to find the sqareroot of the number. 
+				//return Math.sqrt(num);
+	  // this is way more simple method to find the sqareroot of the number.
 }
 
 public class InterfacePract {

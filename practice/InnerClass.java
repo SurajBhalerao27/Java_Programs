@@ -22,7 +22,7 @@ public class InnerClass {
 
 	public static void main(String[] args) {
 		System.out.println(InnerClass.cal());
-		Demo demo = new Demo();
-		Demo.InnerDemo innerDemo = demo.new InnerDemo();
+		Demo1 demo = new Demo1();
+//		Demo1.InnerDemo innerDemo = demo.new InnerDemo();
 	}
 }

@@ -1,10 +1,10 @@
 package practice;
-import java.util.*;
+import java.util.Scanner;
 class Student1 {
 	String name;
     int roll;
     int marks;
-    
+
     void input() {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter Your Name, Roll_no And Marks: ");
@@ -13,10 +13,10 @@ class Student1 {
             sc.close();
             roll = sc.nextInt();
             marks = sc.nextInt();
-            
+
         }
     }
-    
+
     void show() {
         System.out.println("Name = " + name + "\nRoll_no = " + roll  + "\nMarks = " + marks);
     }
@@ -34,4 +34,4 @@ public class Studentdemo1 {
         	s[i].show();
         }
     }
-}	
+}

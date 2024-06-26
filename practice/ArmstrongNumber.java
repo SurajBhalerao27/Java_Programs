@@ -1,4 +1,4 @@
-/*  
+/*
     WAP to find whether a given number is an Armstrong number
 */
 package practice;
@@ -14,16 +14,17 @@ public class ArmstrongNumber {
 			n=sc.nextInt();
 		}
 		t=n;
-		
+
 		while(n>0) {
 			r=n%10;
 			s=s+(r*r*r);
 			n=n/10;
 		}
-		if(t==s)
-		System.out.print("Armstrong Number");
-		else
-		System.out.print("Not Armstrong Number");
+		if(t==s) {
+			System.out.print("Armstrong Number");
+		} else {
+			System.out.print("Not Armstrong Number");
+		}
 	}
 
 }

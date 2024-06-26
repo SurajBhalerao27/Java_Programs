@@ -4,7 +4,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class ArraySum {  
+public class ArraySum {
 
 	public static void main(String[] args) {
 

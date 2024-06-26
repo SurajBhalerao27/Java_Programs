@@ -1,19 +1,18 @@
 package practice;
-
-import java.util.*;
-
 public class Main {
-
-    public static void main(String[] args) {
-        int age;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your Age");
-        age = sc.nextInt();
-        if (age < 18)
-            System.out.println("You are underage to drive");
-        else
-            System.out.println("You are eligible to apply for a driving license");
-
-        sc.close(); // Close the Scanner after using it.
-    }
+	public static void main(String[] args) {
+		
+		String address = "Delhi ada,my,sd,India";
+		if (address.endsWith("India")) {
+			if (address.contains("Meerut")) {
+				System.out.println("Your city is Meerut");
+			} else if (address.contains("Noida")) {
+				System.out.println("Your city is Noida");
+			} else {
+				System.out.println(address.split(",")[2]);
+			}
+		} else {
+			System.out.println("You are not living in India");
+		}
+	}
 }
